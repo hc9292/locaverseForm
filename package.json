@@ -1,0 +1,28 @@
+{
+  "name": "locaverse",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "npx jest --config=jest.config.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.5",
+    "@nuxt/test-utils": "^3.8.1",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
